@@ -1,0 +1,60 @@
+2023-09-11T00:28:39.5949858+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:28:39.6728799+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetAll) Get All method is called to get all Instructions
+2023-09-11T00:28:39.8216905+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionListHandler) Calling Repository method GetInstructions()
+2023-09-11T00:28:39.8228009+05:30 [INF] (Infrastructure.Repository.InstructionRepository) GetInstructions called to Get all instructions from database
+2023-09-11T00:28:41.3606944+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions" responded 200 in 1770.7474 ms
+2023-09-11T00:29:23.9462391+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:29:24.0189645+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetAll) Get All method is called to get all Instructions
+2023-09-11T00:29:24.1650301+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionListHandler) Calling Repository method GetInstructions()
+2023-09-11T00:29:24.1662928+05:30 [INF] (Infrastructure.Repository.InstructionRepository) GetInstructions called to Get all instructions from database
+2023-09-11T00:29:25.7483780+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions" responded 200 in 1805.6954 ms
+2023-09-11T00:31:29.3783477+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:31:33.2009478+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:31:34.2261577+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:31:35.9090142+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:31:35.9214357+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:31:49.5808841+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 20204.7643 ms
+2023-09-11T00:34:03.2097340+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:34:03.2735933+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:34:03.4159092+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:34:04.9476697+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:34:04.9607292+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:34:05.0125184+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 1805.8012 ms
+2023-09-11T00:36:59.3193082+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:36:59.3234049+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:36:59.3578494+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:36:59.3582645+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:36:59.3598211+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 42.8404 ms
+2023-09-11T00:40:05.3280655+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:40:05.3903696+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:40:05.5516333+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:40:07.0687330+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:40:07.0832248+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:40:07.1433278+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 1818.3148 ms
+2023-09-11T00:41:48.5133071+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:41:48.5736860+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:41:48.7559560+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:41:50.2659737+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:41:50.2839204+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:41:50.3402727+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 1830.0056 ms
+2023-09-11T00:45:37.7017543+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:45:41.5499982+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.Put) Put method is called to update a Instruction
+2023-09-11T00:45:46.2169834+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Updating an existing Instruction
+2023-09-11T00:45:46.4381019+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:45:46.4662724+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:45:46.4673360+05:30 [INF] (Application.Common.CQRS.Instructions.Commands.UpdateInstructionHandler) Handling UpdateInstructionCommand Application.Common.CQRS.Instructions.Commands.UpdateInstructionCommand
+2023-09-11T00:45:54.8992034+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/instructions" responded 200 in 17200.5544 ms
+2023-09-11T00:49:11.7894376+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:49:22.9308241+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.Put) Put method is called to update a Instruction
+2023-09-11T00:49:24.7301084+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Updating an existing Instruction
+2023-09-11T00:49:24.8660555+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:49:24.9036365+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:49:24.9041423+05:30 [INF] (Application.Common.CQRS.Instructions.Commands.UpdateInstructionHandler) Handling UpdateInstructionCommand Application.Common.CQRS.Instructions.Commands.UpdateInstructionCommand
+2023-09-11T00:49:24.9348063+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/instructions" responded 200 in 13153.3682 ms
+2023-09-11T00:57:06.8300728+05:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-11T00:57:06.9089268+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.Put) Put method is called to update a Instruction
+2023-09-11T00:57:08.4702197+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Updating an existing Instruction
+2023-09-11T00:57:08.5898018+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:57:08.6202154+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T00:57:08.6206131+05:30 [INF] (Application.Common.CQRS.Instructions.Commands.UpdateInstructionHandler) Handling UpdateInstructionCommand Application.Common.CQRS.Instructions.Commands.UpdateInstructionCommand
+2023-09-11T00:57:08.6423189+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/instructions" responded 200 in 1817.2966 ms

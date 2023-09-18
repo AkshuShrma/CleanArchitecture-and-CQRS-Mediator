@@ -1,0 +1,54 @@
+2023-09-11T00:00:06.4130090+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.GetById) GetById method is called to retrieve Schedule Transportation Instruction with ID 1
+2023-09-11T00:00:06.4173678+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Handling GetScheduleTransportById request for ID: 1
+2023-09-11T00:00:06.4437796+05:30 [ERR] (Infrastructure.Repository.ScheduleTransportRepository)  retrieved a scheduled transport by ID
+2023-09-11T00:00:06.4519705+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Successfully handled GetScheduleTransportById request for ID: 1
+2023-09-11T00:00:06.4526902+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/schedule/1" responded 200 in 40.7095 ms
+2023-09-11T00:00:35.0786988+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.GetById) GetById method is called to retrieve Schedule Transportation Instruction with ID 2
+2023-09-11T00:00:35.0875589+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Handling GetScheduleTransportById request for ID: 2
+2023-09-11T00:00:35.0949742+05:30 [ERR] (Infrastructure.Repository.ScheduleTransportRepository)  retrieved a scheduled transport by ID
+2023-09-11T00:00:35.0951184+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Successfully handled GetScheduleTransportById request for ID: 2
+2023-09-11T00:00:35.0955010+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/schedule/2" responded 200 in 22.0683 ms
+2023-09-11T00:02:01.0495722+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.Put) Put method is called to update a Schedule Transportation Instruction
+2023-09-11T00:02:01.1349104+05:30 [INF] (Infrastructure.Repository.ScheduleTransportRepository) Updating an existing ScheduleTransport in the database
+2023-09-11T00:02:01.1443808+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportsHandler) Handling UpdateScheduleTransportCommand Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportCommand
+2023-09-11T00:02:01.1453386+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/schedule" responded 200 in 115.9228 ms
+2023-09-11T00:02:27.3438263+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.Put) Put method is called to update a Schedule Transportation Instruction
+2023-09-11T00:02:27.3695029+05:30 [INF] (Infrastructure.Repository.ScheduleTransportRepository) Updating an existing ScheduleTransport in the database
+2023-09-11T00:02:27.3801100+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportsHandler) Handling UpdateScheduleTransportCommand Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportCommand
+2023-09-11T00:02:27.3815744+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/schedule" responded 200 in 38.9721 ms
+2023-09-11T00:02:49.9413238+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.Put) Put method is called to update a Schedule Transportation Instruction
+2023-09-11T00:02:49.9445883+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportsHandler) Handling UpdateScheduleTransportCommand Application.Common.CQRS.ScheduleTransports.Commands.UpdateScheduleTransportCommand
+2023-09-11T00:02:49.9471319+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/schedule" responded 204 in 6.5331 ms
+2023-09-11T00:03:07.0671876+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.GetById) GetById method is called to retrieve Schedule Transportation Instruction with ID 1
+2023-09-11T00:03:07.0674691+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Handling GetScheduleTransportById request for ID: 1
+2023-09-11T00:03:07.0865101+05:30 [ERR] (Infrastructure.Repository.ScheduleTransportRepository)  retrieved a scheduled transport by ID
+2023-09-11T00:03:07.0866734+05:30 [INF] (Application.Common.CQRS.ScheduleTransports.Querys.GetScheduleTransportByIdHandler) Successfully handled GetScheduleTransportById request for ID: 1
+2023-09-11T00:03:07.1032904+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/schedule/1" responded 200 in 36.4000 ms
+2023-09-11T00:49:57.2294473+05:30 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-11T00:50:08.6110815+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetAll) Get All method is called to get all Instructions
+2023-09-11T00:50:08.9610296+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionListHandler) Calling Repository method GetInstructions()
+2023-09-11T00:50:08.9623821+05:30 [INF] (Infrastructure.Repository.InstructionRepository) GetInstructions called to Get all instructions from database
+2023-09-11T00:50:13.1692395+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions" responded 200 in 4636.6933 ms
+2023-09-11T00:50:52.7419665+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.GetById) GetById method is called to retrieve Instruction with ID 1
+2023-09-11T00:50:52.7508566+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Handling GetInstructionsById request for ID: 1
+2023-09-11T00:50:52.8730793+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Retrieved an Instruction by ID
+2023-09-11T00:50:52.8780363+05:30 [INF] (Application.Common.CQRS.Instructions.Query.GetInstructionsByIdHandler) Successfully handled GetInstructionsById request for ID: 1
+2023-09-11T00:50:52.8815237+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/instructions/1" responded 200 in 148.7718 ms
+2023-09-11T00:51:13.4060070+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.ScheduleTransporters.GetAll) GetAll method is called to get all Schedule Transportation Instructions
+2023-09-11T00:51:13.6520249+05:30 [ERR] (Infrastructure.Repository.ScheduleTransportRepository) retrieved all scheduled transports
+2023-09-11T00:51:13.6719715+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/api/schedule" responded 200 in 273.5533 ms
+2023-09-11T01:00:27.0888814+05:30 [WRN] (Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware) Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-09-11T01:02:58.3681757+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.Put) Put method is called to update a Instruction
+2023-09-11T01:03:01.5388105+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Updating an existing Instruction
+2023-09-11T01:03:01.7672735+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:01.7933079+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:01.7980794+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:01.7986944+05:30 [INF] (Application.Common.CQRS.Instructions.Commands.UpdateInstructionHandler) Handling UpdateInstructionCommand Application.Common.CQRS.Instructions.Commands.UpdateInstructionCommand
+2023-09-11T01:03:01.8289459+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/instructions" responded 200 in 3618.0983 ms
+2023-09-11T01:03:42.5618781+05:30 [INF] (ScheduleTransportationInstructions.API.Endpoints.Instruction.Put) Put method is called to update a Instruction
+2023-09-11T01:03:42.6092146+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Updating an existing Instruction
+2023-09-11T01:03:42.6249746+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:42.6280017+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:42.6306185+05:30 [INF] (Infrastructure.Repository.InstructionRepository) Saved changes to the database
+2023-09-11T01:03:42.6307203+05:30 [INF] (Application.Common.CQRS.Instructions.Commands.UpdateInstructionHandler) Handling UpdateInstructionCommand Application.Common.CQRS.Instructions.Commands.UpdateInstructionCommand
+2023-09-11T01:03:42.6320757+05:30 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "PUT" "/api/instructions" responded 200 in 75.9580 ms

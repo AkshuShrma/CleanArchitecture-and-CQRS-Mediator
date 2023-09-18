@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\PostgreSQL\\CQRS and MediatR with Clean Architecture\\ScheduleTransportationInstructions\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\PostgreSQL\\CQRS and MediatR with Clean Architecture\\ScheduleTransportationInstructions\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\PostgreSQL\\CQRS and MediatR with Clean Architecture\\ScheduleTransportationInstructions\\Infrastructure",
+  "ScheduleTransportationInstructions.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\PostgreSQL\\CQRS and MediatR with Clean Architecture\\ScheduleTransportationInstructions\\ScheduleTransportationInstructions.API"
+}
